@@ -172,3 +172,6 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.ui 2 2 2021-10-20 09:25:44.718
 !MESSAGE Invalid preference category path: egovframework.dev.imp.confmngt.preferences.emptyconfpreperencepage (bundle: egovframework.rte.rdt, page: egovframework.rte.rdt.plugin.preferences.RdtPreferencePage)
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2021-10-20 10:04:35.526
+!MESSAGE No valid Android XML Editor Delegate found for file /lab103-junit-test-tutor/src/main/resources/context-helloworld.xml [Res null, type null]
