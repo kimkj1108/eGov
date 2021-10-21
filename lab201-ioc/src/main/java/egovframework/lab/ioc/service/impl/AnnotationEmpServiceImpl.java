@@ -12,7 +12,7 @@ public class AnnotationEmpServiceImpl implements EmpService {
 
     // TODO [Step 2-3] AnnotationEmpServiceImpl 작성
 	
-	 @Resource(name = "annotationEmpDAO")//해당 어노테이션을 사용하여 annotationEmpDAO 인젝션함.
+	 @Resource(name = "annotationEmpDAO")//해당 어노테이션을 사용하여 annotationEmpDAO 인젝션함
 	    private AnnotationEmpDAO empDAO;
 
 	    public void insertEmp(EmpVO empVO) throws Exception {

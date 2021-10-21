@@ -8,9 +8,13 @@ public class EmpVO implements Serializable, Comparable<EmpVO> {
 	
     // TODO [Step 1-2, 2-2] EmpVO 작성
 
-    private static final long serialVersionUID = -1;
 
-    private int empNo;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 6531713833877412311L;
+
+	private int empNo;
 
     private String empName;
 

@@ -7915,3 +7915,12 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY com.android.ide.eclipse.adt 1 0 2021-10-21 19:11:16.527
 !MESSAGE No valid Android XML Editor Delegate found for file /lab201-ioc/src/test/resources/META-INF/spring/context-emp.xml [Res null, type null]
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2021-10-21 19:27:15.309
+!MESSAGE No valid Android XML Editor Delegate found for file /lab201-ioc/src/test/resources/META-INF/spring/context-emp.xml [Res null, type null]
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2021-10-21 19:27:48.935
+!MESSAGE No projects found for [C:\eGovFrame-3.10.0\workspace.edu\lab201-ioc\src\test\resources\META-INF\spring\context-emp.xml]
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2021-10-21 19:28:53.688
+!MESSAGE No projects found for [C:\eGovFrame-3.10.0\workspace.edu\lab201-ioc\src\test\resources\META-INF\spring\context-emp.xml]
