@@ -181,6 +181,8 @@ C:\eGovFrame-3.10.0\workspace.edu\.metadata\.plugins\org.eclipse.jst.jsp.core\js
 \lab302-batch\src\main\java
 C:\eGovFrame-3.10.0\workspace.edu\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\709189140.index
 \lab104-common-component-tutor\src\main\java
+C:\eGovFrame-3.10.0\workspace.edu\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\887523286.index
+\lab102-code-generation\src\main\java
 C:\eGovFrame-3.10.0\workspace.edu\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1503296949.index
 \lab402-ux-component\src\main\java
 C:\eGovFrame-3.10.0\workspace.edu\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3284145778.index

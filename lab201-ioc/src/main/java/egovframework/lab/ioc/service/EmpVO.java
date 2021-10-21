@@ -7,5 +7,35 @@ import java.util.Date;
 public class EmpVO implements Serializable {
 
     // TODO [Step 1-2, 2-2] EmpVO 작성
+	private int empNo;
 
+	private String empName;
+
+	private String job;
+
+	public int getEmpNo() {
+		return empNo;
+	}
+
+	public void setEmpNo(int empNo) {
+		this.empNo = empNo;
+	}
+
+	public String getEmpName() {
+		return empName;
+	}
+
+	public void setEmpName(String empName) {
+		this.empName = empName;
+	}
+
+	public String getJob() {
+		return job;
+	}
+
+	public void setJob(String job) {
+		this.job = job;
+	}
+
+	
 }
