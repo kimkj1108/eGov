@@ -7897,3 +7897,21 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2021-10-21 19:08:46.553
+!MESSAGE No valid Android XML Editor Delegate found for file /lab201-ioc/src/test/resources/log4j2.xml [Res null, type null]
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2021-10-21 19:08:55.250
+!MESSAGE No valid Android XML Editor Delegate found for file /lab201-ioc/src/test/resources/META-INF/spring/context-emp.xml [Res null, type null]
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2021-10-21 19:09:20.085
+!MESSAGE No valid Android XML Editor Delegate found for file /lab201-ioc-tutor/src/test/resources/META-INF/spring/context-emp.xml [Res null, type null]
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2021-10-21 19:09:31.306
+!MESSAGE No projects found for [C:\eGovFrame-3.10.0\workspace.edu\lab201-ioc\src\test\resources\META-INF\spring\context-emp.xml]
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2021-10-21 19:10:57.934
+!MESSAGE No projects found for [C:\eGovFrame-3.10.0\workspace.edu\lab201-ioc\src\test\resources\META-INF\spring\context-emp.xml]
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2021-10-21 19:11:16.527
+!MESSAGE No valid Android XML Editor Delegate found for file /lab201-ioc/src/test/resources/META-INF/spring/context-emp.xml [Res null, type null]
