@@ -10601,3 +10601,9 @@ Caused by: java.lang.Exception: Project 'lab201-ioc-tutor' is not open.
 
 !ENTRY com.android.ide.eclipse.adt 2 0 2021-10-22 09:46:57.778
 !MESSAGE No projects found for [C:\eGovFrame-3.10.0\workspace.edu\lab201-ioc\src\test\resources\META-INF\spring\context-emp.xml]
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2021-10-22 09:48:26.375
+!MESSAGE No projects found for [C:\eGovFrame-3.10.0\workspace.edu\lab201-ioc\src\test\resources\META-INF\spring\context-emp.xml]
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2021-10-22 09:48:52.245
+!MESSAGE No projects found for [C:\eGovFrame-3.10.0\workspace.edu\lab201-ioc\src\test\resources\META-INF\spring\context-emp.xml]

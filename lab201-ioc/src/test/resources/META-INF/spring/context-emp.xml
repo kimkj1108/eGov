@@ -5,7 +5,7 @@
 
 	<!-- xml 형식 bean 정의 -->
 	<!-- TODO [Step 1-5] xmlEmpService, xmlEmpDAO 에 대한 Spring bean 설정  작성 -->
-	<context:component-scan base-package="egovframework" />
+	<!--<context:component-scan base-package="egovframework" />  해당코드로 인한 에러.-->
 	
 	<bean id="xmlEmpService" class="egovframework.lab.ioc.service.impl.XmlEmpServiceImpl">
 		<property name="empDAO" ref="xmlEmpDAO" /><!--  -->
