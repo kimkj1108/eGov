@@ -12,11 +12,16 @@ import egovframework.lab.dataaccess.service.EmpVO;
 import egovframework.rte.fdl.cmmn.EgovAbstractServiceImpl;
 import egovframework.rte.fdl.idgnr.EgovIdGnrService;
 
-@Service("empService")
+@Service("empService")//업무처리 레이어 컴포넌트로 지정하기 위한 anno
 public class EmpServiceImpl extends EgovAbstractServiceImpl implements EmpService {
 
     // TODO [Step 2-3] EmpServiceImpl 작성 추가 
 
+	@Resource(name = "primaryTypeSequenceIds")
+    EgovIdGnrService egovIdGnrService;
+
+    @Resource(name = "empDAO")
+    private EmpDAO empDAO;   
 
 
     public BigDecimal insertEmp(EmpVO empVO) throws Exception {

@@ -14,7 +14,25 @@ import egovframework.rte.psl.dataaccess.EgovAbstractMapper;
 public class EmpDAO extends EgovAbstractMapper {
 
 	// TODO [Step 2-2] EmpDAO 작성 (EgovAbstractMapper 상속한 DAO) 
+	public void insertEmp(EmpVO vo) {
+        insert("Emp.insertEmp", vo);
+    }
 
+    public int updateEmp(EmpVO vo) {
+        return update("Emp.updateEmp", vo);
+    }
+
+    public int deleteEmp(EmpVO vo) {
+        return delete("Emp.deleteEmp", vo);
+    }
+
+    public EmpVO selectEmp(EmpVO vo) {
+        return  (EmpVO) selectOne("Emp.selectEmp", vo);
+    }
+
+    public List<EmpVO> selectEmpList(EmpVO searchVO) {
+        return selectList("Emp.selectEmpList", searchVO);
+    }
 
 
 }

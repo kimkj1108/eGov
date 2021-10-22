@@ -7,11 +7,30 @@ import org.springframework.stereotype.Repository;
 import egovframework.lab.dataaccess.service.EmpVO;
 import egovframework.rte.psl.dataaccess.EgovAbstractDAO;
 
-@Repository("empDAO")
+@Repository("empDAO")//데이터처리 레이어 컴포넌트 지정을 위한 anno
 public class EmpDAO extends EgovAbstractDAO {
 
 	// TODO [Step 2-4] EmpDAO 작성
+	public void insertEmp(EmpVO vo) {
+		insert("insertEmp", vo);
+	}
 
+	public int updateEmp(EmpVO vo) {
+		return update("updateEmp", vo);
+	}
+
+	public int deleteEmp(EmpVO vo) {
+		return delete("deleteEmp", vo);
+	}
+
+	public EmpVO selectEmp(EmpVO vo) {
+		return (EmpVO) select("selectEmp", vo);
+	}
+
+	@SuppressWarnings("unchecked")
+	public List<EmpVO> selectEmpList(EmpVO searchVO) {
+		return (List<EmpVO>) list("selectEmpList", searchVO);
+	}
 
 
 }

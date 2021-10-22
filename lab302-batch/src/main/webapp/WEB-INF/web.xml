@@ -14,7 +14,7 @@
       <param-value>utf-8</param-value>
     </init-param>
   </filter>
-  <filter>
+  <filter> 
     <filter-name>HTMLTagFilter</filter-name>
     <filter-class>
             egovframework.rte.ptl.mvc.filter.HTMLTagFilter

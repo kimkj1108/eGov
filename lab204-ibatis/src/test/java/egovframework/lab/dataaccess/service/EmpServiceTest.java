@@ -40,7 +40,7 @@ public class EmpServiceTest {
     @Resource(name = "empService")
     EmpService empService;
 
-    @Before
+    @Before//해당어노테이션으로 테스트케이스 시작 전 호출되는 메소드.
     public void onSetUp() throws Exception {
         // 테스트 편의상 매 테스트메서드 수행전 외부의 sql file 로부터 DB 초기화
         // (기존 테이블 삭제/생성)
@@ -75,7 +75,7 @@ public class EmpServiceTest {
         assertEquals(vo.getDeptNo(), resultVO.getDeptNo());
     }
 
-    @Test
+    @Test//해당하는 메소드 우클릭을 통해 개별 테스트 케이스 실행이 가능 하다.
     public void testInsertEmp() throws Exception {
         EmpVO vo = makeVO();
 
