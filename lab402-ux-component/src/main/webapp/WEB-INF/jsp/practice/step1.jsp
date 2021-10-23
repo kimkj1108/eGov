@@ -18,6 +18,7 @@
 
 		<!-- CSS for Custom Icon -->
 		<link rel="stylesheet" href="<c:url value='/css/egovframework/mbl/customIcon.css'/>"/>
+		
     </head>
 
     <body>
@@ -34,12 +35,12 @@
 
             <!-- content start -->
             <div data-role="content">
-				<a href="#">Icon</a>
-				<a href="#">Mini</a>
-				<a href="#">No Rounded</a>
-				<a href="#">Inline</a>
-				<a href="#">Only Icon</a>
-				<a href="#">Custom Icon</a>
+				<a href="#" data-role="button" data-theme="g" data-icon="grid">Icon</a>
+				<a href="#" data-role="button" data-theme="f" data-icon="star"  data-iconpos="right"  data-mini="true">Mini</a>
+				<a href="#" data-role="button" data-theme="e" data-icon="alert"  data-iconpos="top" data-corners="false">No Rounded</a>
+				<a href="#" data-role="button" data-theme="c" data-icon="phone"  data-iconpos="bottom"  data-inline="true">Inline</a>
+				<a href="#" data-role="button" data-theme="b" data-icon="gps"  data-iconpos="notest">Only Icon</a>
+				<a href="#" data-role="button" data-theme="a" data-icon="beer">Custom Icon</a>
             </div>
             <!-- content end -->
 

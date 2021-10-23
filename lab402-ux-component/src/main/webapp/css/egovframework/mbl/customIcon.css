@@ -4,3 +4,6 @@
 	background-image: url([이미지 경로]);
 	background-repeat: no-repeat;
 }
+.ui-icon-beer:after {
+	background-image: url(/images/egovframework/mbl/beer.png); background-repeat: no-repeat;
+}

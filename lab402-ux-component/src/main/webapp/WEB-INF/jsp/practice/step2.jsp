@@ -19,7 +19,7 @@
 
     <body>
         <!-- page start -->
-        <div data-role="page" data-theme="c">
+        <div data-role="page" data-theme="c" id="main">
 
             <!-- header start -->
             <div data-role="header" data-theme="g">
@@ -31,9 +31,9 @@
 
             <!-- content start -->
             <div data-role="content">
-				<a href="#" data-role="button">외부 링크</a>
-				<a href="#" data-role="button">도메인 내부 링크</a>
-				<a href="#" data-role="button">페이지 내부 링크</a>
+				<a href="http://m.egovframe.go.kr/mguide3.5" data-role="button" target="home">외부 링크</a>
+				<a href="/internalLinkPage.do" data-role="button" data-ajax="false">도메인 내부 링크</a>
+				<a href="#sub" data-role="button" data-rel="dialog" data-transition="pop">페이지 내부 링크</a>
             </div>
             <!-- content end -->
 
@@ -49,7 +49,7 @@
         <!-- page end -->
 
 		<!-- 페이지 내부 이동을 위한 sub page start -->
-		<div data-role="page" data-theme="e">
+		<div data-role="page" data-theme="e" id="sub">
 
 			<!-- header start -->
 			<div data-role="header" data-theme="b">
