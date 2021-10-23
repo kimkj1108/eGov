@@ -67,8 +67,9 @@
 	-->
 
 	<!-- WRITER -->
+	<!--  
 	<bean id="fixedLengthToJdbcJob.fixedLengthToJdbcStep.jdbcItemWriter"
-		class="egovframework.rte.bat.core.item.database.EgovJdbcBatchItemWriter"><!-- 프로세스에서 넘겨준 객체가 가지고 있는 속성값을 배열로 변환해서 sql에 바인딩해서 실행하는 처리를 해주는 역할? -->
+		class="egovframework.rte.bat.core.item.database.EgovJdbcBatchItemWriter">
 		<property name="assertUpdates" value="true" />
 		<property name="itemPreparedStatementSetter">
 			<bean class="egovframework.rte.bat.core.item.database.support.EgovMethodMapItemPreparedStatementSetter" />
@@ -77,11 +78,11 @@
 		<property name="params" value="credit,name" />
 		<property name="dataSource" ref="dataSource" />
 	</bean>
-
-	<!--
+	-->
+	
 	<bean id="fixedLengthToJdbcJob.fixedLengthToJdbcStep.jdbcItemWriter"
 		class="org.springframework.batch.item.file.FlatFileItemWriter" scope="step">
-		<property name="resource" value="file:C:/eGovFrame-3.10.0/workspace.edu/lab302-batch/src/main/resources/egovframework/batch/data/outputs/txtOutput.txt" />
+		<property name="resource" value="file:C:/eGovFrame-3.10.0/workspace.edu/lab302-batch/src/main/resources/egovframework/batch/data/outputs/txtOutput2.txt" />
 		<property name="lineAggregator">
 			<bean class="egovframework.rte.bat.core.item.file.transform.EgovFixedLengthLineAggregator">
 				<property name="fieldExtractor">
@@ -93,6 +94,6 @@
 			</bean>
 		</property>
 	</bean>
-	 -->
+	 
 
 </beans>

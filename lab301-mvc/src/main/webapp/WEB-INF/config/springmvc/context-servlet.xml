@@ -10,10 +10,12 @@
 	
 	<!-- set view resolver -->
 	<!-- TODO [Step 1-1-1] ViewResolver - View를 처리할 해결사를 설정하자 -->
-	<!--
+	
+	
 	<bean  class="org.springframework.web.servlet.view.InternalResourceViewResolver"
 		p:prefix="/WEB-INF/jsp/" p:suffix=".jsp" />
-	-->
+	
+
 
 	<!-- set message source -->
 	<!-- TODO [Step 1-2-1] SpringMessage - messageSource 활성화 설정 -->

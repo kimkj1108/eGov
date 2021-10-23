@@ -13,7 +13,7 @@ import egovframework.rte.psl.dataaccess.EgovAbstractMapper;
 @SuppressWarnings("deprecation")
 public class EmployeeDao extends EgovAbstractMapper {
 		
-
+	//DAO에서는 DB에 접근해서 가져온다.
 	@SuppressWarnings("unchecked")
 	public List<String> getNameListForSuggest(String namePrefix){
 		return (List<String>)list("Employee.getNameListForSuggest",namePrefix);

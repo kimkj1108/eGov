@@ -40,6 +40,10 @@ public class AjaxController {
     	String searchName = URLDecoder.decode(keyword,"utf-8");
     	
     	// TODO [Step 2-2-2] autoComplete의 리스트를 DB를 통하여 가져온다.
+    	List<String> nameList = employeeService.getNameListForSuggest(searchName);
+		
+		modelAndView.addObject("resultList", nameList);
+
 		
 		
 		//modelAndView.addObject("resultList", nameList);
