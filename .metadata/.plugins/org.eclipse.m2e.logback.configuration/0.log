@@ -206,3 +206,5 @@
 2021-10-26 17:54:27,463 [main] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for lab101_2
 2021-10-26 17:54:33,605 [Worker-54: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of lab101_2
 2021-10-26 17:54:33,610 [Worker-54: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for lab101_2
+2021-10-28 09:47:03,477 [Worker-23: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of lab102-code-generation-tutor
+2021-10-28 09:47:03,935 [Worker-23: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for lab102-code-generation-tutor
