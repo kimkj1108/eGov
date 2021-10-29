@@ -6171,3 +6171,12 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2021-10-29 10:57:33.104
+!MESSAGE No valid Android XML Editor Delegate found for file /lab103/src/test/resources/context-helloworld.xml [Res null, type null]
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2021-10-29 10:58:10.491
+!MESSAGE No valid Android XML Editor Delegate found for file /lab103/src/main/resources/context-helloworld.xml [Res null, type null]
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2021-10-29 10:59:03.653
+!MESSAGE No valid Android XML Editor Delegate found for file /lab103/src/test/resources/context-helloworld.xml [Res null, type null]
